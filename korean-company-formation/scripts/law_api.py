@@ -42,7 +42,7 @@ def search(args):
     tag, ident, title = TARGETS[args.target]
     rows = []
     for node in root.findall('.//' + tag):
-        d = {child.tag: (child.text or '').strip() for child in node if len(child) == 0}
+        d = {child.tag: no_oc((child.text or '').strip()).replace(os.environ['LAW_API_OC'].strip(), '[인증값]') for child in node if len(child) == 0}
         if field(node, ident): rows.append(d)
     print(json.dumps({'target':args.target, 'query':args.query, 'total':field(root,'totalCnt'), 'page':args.page, 'results':rows}, ensure_ascii=False, indent=2))
 def absolute_link(raw):
