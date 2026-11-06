@@ -1,14 +1,14 @@
 ---
 name: korean-company-formation
-description: Research South Korean stock-company formation requirements, registration, and related tax filings using current authoritative legal sources. Use when a user asks about forming a Korean 주식회사 or checking its legal requirements.
+description: Research South Korean legal requirements and collect laws, administrative rules, and official forms, including company formation and HR topics, using the National Law Information Center Open API.
 ---
 
-# 대한민국 주식회사 설립 조사
+# 대한민국 법령 조사 및 자료 수집
 
-사용자의 질문에 맞춰 설립 방식, 자본금, 업종, 소재지, 외국인 투자 및 적용 기준일 등 결과에 영향을 주는 사실을 확인한다. 확인되지 않은 사실은 가정으로 표시하고, 답변에 결정적인 사실이 빠져 있으면 질문한다.
+사용자의 분야, 적용 대상, 기준일과 원하는 산출물을 파악한다. 법령, 시행령·시행규칙, 행정규칙과 별표·서식을 구분하고 분야를 좁혀 검색한다. 검색 결과에서 적합한 자료를 선별해 원문과 제공되는 서식을 다운로드하고 요청한 폴더에 출처, 조회일과 함께 정리한다. 제목 검색만으로 포괄적 검색이 되지는 않으므로 적절한 유의어와 본문 검색을 병행하고 누락 가능성을 밝힌다. 인사제도와 같은 광범위한 주제는 업종, 근로자 규모, 관심 주제 등에 맞춰 범위를 정한다.
 
-국가법령정보센터의 해당 기준일에 시행 중인 법령 본문과 부칙을 확인하고, 필요한 경우 대법원 인터넷등기소, 국세청 등 관계 기관의 공식 자료를 함께 확인한다. 각 핵심 요건과 기한에 해당하는 법령명, 조·항 및 직접 확인한 출처 링크를 제시하고, 시행일과 확인일을 밝힌다. 예정된 개정과 현행 규정을 구분한다. 원문을 확인할 수 없는 경우 그 사실을 밝히고 확인하지 않은 내용을 확정적으로 말하지 않는다.
+국가법령정보센터 Open API 사용법은 [references/api.md](references/api.md)를 읽는다. `LAW_API_OC` 환경변수에 신청한 인증값이 있을 때 [scripts/law_api.py](scripts/law_api.py)를 사용한다. 인증값을 요구하는 출력이나 저장물에 노출하지 않는다. 인증이 없거나 API 사용이 거절되면 이 사실을 밝히고, 공식 웹 자료 등 이용 가능한 출처로 조사하되 API 연동에 성공했다고 주장하지 않는다. 누락되거나 실패한 첨부 파일을 알린다.
 
-법령의 문언, 사실관계에 대한 적용 및 해석을 구분한다. 예외나 기한의 기산점이 중요하면 이를 명시하고, 불확실하거나 사안별 판단이 필요한 부분은 설명한다. 사용자의 목적에 맞게 필요한 절차, 서류 및 후속 신고를 정리하되, 근거가 확인되지 않은 항목은 확인 필요로 표시한다. 개별 사건에서 전문적인 검토가 필요하면 변호사나 법무사 등 적절한 전문가의 확인을 권한다.
+시행일과 부칙, 예외, 기한의 기산점 및 사실관계를 확인하고, 법령의 문언과 해석을 구분한다. 주장별 법령명·조항과 직접 확인한 공식 출처를 연결한다. 행정규칙과 법령의 위계를 구분하며, 법적 요건에 해당하지 않는 일반 실무 양식은 별도로 표시한다. 확인되지 않은 내용은 확정적으로 말하지 않는다. 개별 사건의 전문적인 검토가 필요하면 적절한 전문가의 확인을 권한다.
 
-기존 자료는 [references/original-report.md](references/original-report.md)에 있다. 자본금 10억 원 미만 발기설립에 관한 2026-10-31 당시 조사 사례로만 참고하고, 답변의 현행 근거로 대체하지 않는다. [검증 자료](references/verification/verification-report.md)는 해당 인용 조문의 존재와 제목 등을 확인한 기록이며, 요건의 해석이나 각 주장 전체의 정확성을 검증한 결과가 아니다.
+기존 [주식회사 설립 조사](references/original-report.md)와 [검증 기록](references/verification/verification-report.md)은 2026-10-31 기준 참고 사례이며, 조문 존재와 제목 확인이 각 주장의 정확성이나 현재 효력을 보증하지 않는다.

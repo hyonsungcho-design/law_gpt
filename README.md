@@ -1,10 +1,5 @@
-# Korean Company Formation Skill for GPT / Codex
+# 대한민국 법령 조사 및 자료 수집 스킬
 
-대한민국 주식회사 설립에 관한 질문을 조사할 때 현행 법령과 공식 출처를 확인하도록 돕는 스킬입니다.
+국가법령정보센터 Open API를 통해 법령·행정규칙·별표서식을 검색하고, 선택한 원문과 제공되는 첨부파일을 출처와 함께 정리하는 Codex 스킬입니다. API 사용에는 공동활용 신청과 `LAW_API_OC` 설정이 필요합니다. 설치 및 실행 방법은 [API 안내](korean-company-formation/references/api.md)를 참조하세요.
 
-- 스킬: [korean-company-formation/SKILL.md](korean-company-formation/SKILL.md)
-- 원본: [hyonsungcho-design/law](https://github.com/hyonsungcho-design/law), commit `c92aef9e3a2cdb3d23fd0d48a5790e463bb8d140`
-
-원본 저장소에는 Claude 스킬 정의가 아니라 주식회사 설립 조사 자료와 조문 인용 검증 기록이 들어 있어, 해당 자료를 참고 사례로 보존하고 이를 활용하는 새로운 Codex 스킬을 작성했습니다. 과거 검증 결과는 조문 존재·제목 등의 확인이며, 법률 주장 전체의 검증이나 현재 시행 여부를 보장하지 않습니다.
-
-Codex에서 사용하려면 `korean-company-formation` 폴더를 Codex 스킬 디렉터리에 설치하고 새 세션에서 사용하세요. 웹 검색이 가능한 환경에서는 매 질문에 적용되는 현행 법령과 공식 자료를 확인합니다. 이 저장소 자체가 ChatGPT 맞춤 GPT를 자동으로 생성하지는 않습니다.
+원본 [law](https://github.com/hyonsungcho-design/law)의 주식회사 설립 조사 및 과거 인용 검증 기록도 참고 자료로 보존했습니다. 원문의 현행 여부와 법률적 적용은 별도로 확인해야 합니다.
