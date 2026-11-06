@@ -1,0 +1,376 @@
+{
+  "schema": "korean-law/evidence@2",
+  "engine": "verify_document",
+  "verdict": "PASS",
+  "verdict_ko": "통과",
+  "reasons": [],
+  "checked_at": "2026-10-31",
+  "as_of": null,
+  "normalize_changes": [],
+  "items": [
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제288조(발기인) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L1",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제288조",
+      "claimed_title": "발기인",
+      "cited": "상법 제288조",
+      "source_line": "제288조",
+      "title": "발기인",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제289조(정관의 작성, 절대적 기재사항) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L2",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제289조",
+      "claimed_title": "정관의 작성, 절대적 기재사항",
+      "cited": "상법 제289조",
+      "source_line": "제289조",
+      "title": "정관의 작성, 절대적 기재사항",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제290조(변태설립사항) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L3",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제290조",
+      "claimed_title": "변태설립사항",
+      "cited": "상법 제290조",
+      "source_line": "제290조",
+      "title": "변태설립사항",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제292조(정관의 효력발생) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L4",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제292조",
+      "claimed_title": "정관의 효력발생",
+      "cited": "상법 제292조",
+      "source_line": "제292조",
+      "title": "정관의 효력발생",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ALIAS_CHECK",
+          "evidence": "'발기설립 시 상법' → 후보 '상법'",
+          "source": "법제처 법령 검색"
+        },
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제295조(발기설립의 경우의 납입과 현물출자의 이행) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L5",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "발기설립 시 상법",
+      "article": "제295조",
+      "claimed_title": "발기설립의 경우의 납입과 현물출자의 이행",
+      "cited": "상법 제295조",
+      "source_line": "제295조",
+      "title": "발기설립의 경우의 납입과 현물출자의 이행",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제318조(납입금 보관자의 증명과 책임) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L6",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제318조",
+      "claimed_title": "납입금 보관자의 증명과 책임",
+      "cited": "상법 제318조",
+      "source_line": "제318조",
+      "title": "납입금 보관자의 증명과 책임",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제329조(자본금의 구성) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L7",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제329조",
+      "claimed_title": "자본금의 구성",
+      "cited": "상법 제329조",
+      "source_line": "제329조",
+      "title": "자본금의 구성",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제383조(원수, 임기) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L8",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제383조",
+      "claimed_title": "원수, 임기",
+      "cited": "상법 제383조",
+      "source_line": "제383조",
+      "title": "원수, 임기",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제409조(선임) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L9",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제409조",
+      "claimed_title": "선임",
+      "cited": "상법 제409조",
+      "source_line": "제409조",
+      "title": "선임",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제317조(설립의 등기) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L10",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제317조",
+      "claimed_title": "설립의 등기",
+      "cited": "상법 제317조",
+      "source_line": "제317조",
+      "title": "설립의 등기",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제172조(회사의 성립) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L11",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제172조",
+      "claimed_title": "회사의 성립",
+      "cited": "상법 제172조",
+      "source_line": "제172조",
+      "title": "회사의 성립",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "상법 제22조(상호등기의 효력) 실존",
+          "source": "상법 (시행 20260910, MST 273629)"
+        }
+      ],
+      "id": "L12",
+      "kind": "law",
+      "law": "상법",
+      "cited_law": "상법",
+      "article": "제22조",
+      "claimed_title": "상호등기의 효력",
+      "cited": "상법 제22조",
+      "source_line": "제22조",
+      "title": "상호등기의 효력",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "법인세법 제109조(법인의 설립 또는 설치신고) 실존",
+          "source": "법인세법 (시행 20260701, MST 280349)"
+        }
+      ],
+      "id": "L13",
+      "kind": "law",
+      "law": "법인세법",
+      "cited_law": "법인세법",
+      "article": "제109조",
+      "claimed_title": "법인의 설립 또는 설치신고",
+      "cited": "법인세법 제109조",
+      "source_line": "제109조",
+      "title": "법인의 설립 또는 설치신고",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "법인세법 제111조(사업자등록) 실존",
+          "source": "법인세법 (시행 20260701, MST 280349)"
+        }
+      ],
+      "id": "L14",
+      "kind": "law",
+      "law": "법인세법",
+      "cited_law": "법인세법",
+      "article": "제111조",
+      "claimed_title": "사업자등록",
+      "cited": "법인세법 제111조",
+      "source_line": "제111조",
+      "title": "사업자등록",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "부가가치세법 제8조(사업자등록) 실존",
+          "source": "부가가치세법 (시행 20260102, MST 276117)"
+        }
+      ],
+      "id": "L15",
+      "kind": "law",
+      "law": "부가가치세법",
+      "cited_law": "부가가치세법",
+      "article": "제8조",
+      "claimed_title": "사업자등록",
+      "cited": "부가가치세법 제8조",
+      "source_line": "제8조",
+      "title": "사업자등록",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    },
+    {
+      "evidence": [
+        {
+          "check": "ALIAS_CHECK",
+          "evidence": "'설립등기 시 지방세법' → 후보 '지방세법'",
+          "source": "법제처 법령 검색"
+        },
+        {
+          "check": "ARTICLE_CHECK",
+          "evidence": "지방세법 제28조(세율) 실존",
+          "source": "지방세법 (시행 20260701, MST 282559)"
+        }
+      ],
+      "id": "L16",
+      "kind": "law",
+      "law": "지방세법",
+      "cited_law": "설립등기 시 지방세법",
+      "article": "제28조",
+      "claimed_title": "세율",
+      "cited": "지방세법 제28조",
+      "source_line": "제28조",
+      "title": "세율",
+      "status": "OK",
+      "class": "PASS",
+      "reason": "실존 확인",
+      "fix": ""
+    }
+  ],
+  "pending_checks": [],
+  "data_source": "법제처 국가법령정보센터 Open API"
+}
